@@ -5,8 +5,8 @@ const loadQuotes = () =>{
 }
 const displayQuote = (quote) =>{
     const blockQuote = document.getElementById('quotes');
-    console.log(quote);
     blockQuote.innerHTML = quote.quote;
+    
 }
 
 loadQuotes();
